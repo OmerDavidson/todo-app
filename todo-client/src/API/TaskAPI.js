@@ -11,6 +11,3 @@ export const createAccount = async (userName, password) =>
     userName,
     password,
   });
-
-export const logIn = async (userName, password) =>
-      axios.post
